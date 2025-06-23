@@ -8,12 +8,13 @@ Ever wondered if a quote is true wisdom or just eloquent nonsense?
 - Distinguishes philosophical depth from “high-vibration” fluff.
 - Trained on curated phrases from real-world examples.
 - Useful for NLP experiments, semantic filtering, and satire-aware content moderation.
+- The model is trained in Spanish. 
 
 ### 🚀 Quick Start
 
 ```python
-classify("The quantum field aligns with your soul")  
+classify("El campo cuántico se alinea con tu alma")  
 # → Pseudoscience (confidence: 0.08)
 
-classify("An unexamined life is not worth living")  
+classify("No vale la pena vivir una vida sin examinar")  
 # → Philosophy (confidence: 0.91)
